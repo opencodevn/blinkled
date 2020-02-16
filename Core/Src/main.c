@@ -33,7 +33,7 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-#define TG_DELAY_BLINK_MILIGIAY 500
+#define TG_DELAY_BLINK_MILIGIAY 600
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
