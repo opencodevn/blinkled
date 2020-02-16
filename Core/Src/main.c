@@ -33,6 +33,7 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
+#define TG_DELAY_BLINK_MILIGIAY 500
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -112,9 +113,9 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 	  HAL_GPIO_WritePin(GPIOB,GPIO_PIN_5,1);
-	  HAL_Delay(500);	//in mili giay
+	  HAL_Delay(TG_DELAY_BLINK_MILIGIAY);	//in mili giay
 	  HAL_GPIO_WritePin(GPIOB,GPIO_PIN_5,0);
-	  HAL_Delay(500);
+	  HAL_Delay(TG_DELAY_BLINK_MILIGIAY);
   }
   /* USER CODE END 3 */
 }
